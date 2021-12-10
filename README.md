@@ -1,4 +1,4 @@
-# messier-neural-network
+# Messier
  A CMake based simple neural network built with Eigen.
 
 
