@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NeuralNetwork"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NeuralNetwork">
+				<Option output="C:/Users/R/Desktop/NeuralNetwork/bin/NeuralNetwork.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/R/Desktop/NeuralNetwork/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNN_DEBUG"/>
+					<Add directory="C:/Users/R/Desktop/NeuralNetwork"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 NeuralNetwork"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NeuralNetwork/fast">
+				<Option output="C:/Users/R/Desktop/NeuralNetwork/bin/NeuralNetwork.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/R/Desktop/NeuralNetwork/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNN_DEBUG"/>
+					<Add directory="C:/Users/R/Desktop/NeuralNetwork"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 NeuralNetwork/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/leakyrelu.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/relu.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/sigmoid.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/softmax.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/softplus.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/softsign.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/swish.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/tanh.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/common.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/enums.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/layer/dense.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/layer/input.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/layer/layer.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/loss/cross_entropy.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/loss/kldivergence.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/loss/mean_absolute_error.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/loss/quadratic.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/model.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/optimizer/SGD.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/optimizer/adam.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/optimizer/optimizer.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/typedefs.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/weights/he.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/weights/normal.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/weights/xavier.hpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/main.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/leakyrelu.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/relu.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/sigmoid.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/softmax.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/softplus.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/softsign.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/swish.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/tanh.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/layer/dense.ipp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/layer/input.ipp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/loss/cross_entropy.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/loss/kldivergence.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/loss/mean_absolute_error.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/loss/quadratic.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/model.ipp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/optimizer/SGD.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/optimizer/adam.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/optimizer/optimizer.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/weights/he.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/weights/normal.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/weights/xavier.cpp">
+			<Option target="NeuralNetwork"/>
+		</Unit>
+		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
