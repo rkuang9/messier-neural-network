@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\R\Desktop\NeuralNetwork
+CMAKE_SOURCE_DIR = C:\Users\R\Desktop\messier-neural-network
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\R\Desktop\NeuralNetwork\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\R\Desktop\messier-neural-network\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\R\Desktop\NeuralNetwork\cmake-build-debug\CMakeFiles C:\Users\R\Desktop\NeuralNetwork\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\R\Desktop\messier-neural-network\cmake-build-debug\CMakeFiles C:\Users\R\Desktop\messier-neural-network\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\R\Desktop\NeuralNetwork\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\R\Desktop\messier-neural-network\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,30 +127,6 @@ NeuralNetwork: cmake_check_build_system
 NeuralNetwork/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/build
 .PHONY : NeuralNetwork/fast
-
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/main.cpp.s
-.PHONY : main.cpp.s
 
 src/activation/leakyrelu.obj: src/activation/leakyrelu.cpp.obj
 .PHONY : src/activation/leakyrelu.obj
@@ -440,30 +416,6 @@ src/loss/quadratic.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/loss/quadratic.cpp.s
 .PHONY : src/loss/quadratic.cpp.s
 
-src/optimizer/SGD.obj: src/optimizer/SGD.cpp.obj
-.PHONY : src/optimizer/SGD.obj
-
-# target to build an object file
-src/optimizer/SGD.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/optimizer/SGD.cpp.obj
-.PHONY : src/optimizer/SGD.cpp.obj
-
-src/optimizer/SGD.i: src/optimizer/SGD.cpp.i
-.PHONY : src/optimizer/SGD.i
-
-# target to preprocess a source file
-src/optimizer/SGD.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/optimizer/SGD.cpp.i
-.PHONY : src/optimizer/SGD.cpp.i
-
-src/optimizer/SGD.s: src/optimizer/SGD.cpp.s
-.PHONY : src/optimizer/SGD.s
-
-# target to generate assembly for a file
-src/optimizer/SGD.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/optimizer/SGD.cpp.s
-.PHONY : src/optimizer/SGD.cpp.s
-
 src/optimizer/adam.obj: src/optimizer/adam.cpp.obj
 .PHONY : src/optimizer/adam.obj
 
@@ -488,29 +440,29 @@ src/optimizer/adam.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/optimizer/adam.cpp.s
 .PHONY : src/optimizer/adam.cpp.s
 
-src/optimizer/optimizer.obj: src/optimizer/optimizer.cpp.obj
-.PHONY : src/optimizer/optimizer.obj
+src/optimizer/sgd.obj: src/optimizer/sgd.cpp.obj
+.PHONY : src/optimizer/sgd.obj
 
 # target to build an object file
-src/optimizer/optimizer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/optimizer/optimizer.cpp.obj
-.PHONY : src/optimizer/optimizer.cpp.obj
+src/optimizer/sgd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/optimizer/sgd.cpp.obj
+.PHONY : src/optimizer/sgd.cpp.obj
 
-src/optimizer/optimizer.i: src/optimizer/optimizer.cpp.i
-.PHONY : src/optimizer/optimizer.i
+src/optimizer/sgd.i: src/optimizer/sgd.cpp.i
+.PHONY : src/optimizer/sgd.i
 
 # target to preprocess a source file
-src/optimizer/optimizer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/optimizer/optimizer.cpp.i
-.PHONY : src/optimizer/optimizer.cpp.i
+src/optimizer/sgd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/optimizer/sgd.cpp.i
+.PHONY : src/optimizer/sgd.cpp.i
 
-src/optimizer/optimizer.s: src/optimizer/optimizer.cpp.s
-.PHONY : src/optimizer/optimizer.s
+src/optimizer/sgd.s: src/optimizer/sgd.cpp.s
+.PHONY : src/optimizer/sgd.s
 
 # target to generate assembly for a file
-src/optimizer/optimizer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/optimizer/optimizer.cpp.s
-.PHONY : src/optimizer/optimizer.cpp.s
+src/optimizer/sgd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/optimizer/sgd.cpp.s
+.PHONY : src/optimizer/sgd.cpp.s
 
 src/weights/he.obj: src/weights/he.cpp.obj
 .PHONY : src/weights/he.obj
@@ -584,6 +536,30 @@ src/weights/xavier.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/src/weights/xavier.cpp.s
 .PHONY : src/weights/xavier.cpp.s
 
+test/learn_xor.obj: test/learn_xor.cpp.obj
+.PHONY : test/learn_xor.obj
+
+# target to build an object file
+test/learn_xor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/test/learn_xor.cpp.obj
+.PHONY : test/learn_xor.cpp.obj
+
+test/learn_xor.i: test/learn_xor.cpp.i
+.PHONY : test/learn_xor.i
+
+# target to preprocess a source file
+test/learn_xor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/test/learn_xor.cpp.i
+.PHONY : test/learn_xor.cpp.i
+
+test/learn_xor.s: test/learn_xor.cpp.s
+.PHONY : test/learn_xor.s
+
+# target to generate assembly for a file
+test/learn_xor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuralNetwork.dir\build.make CMakeFiles/NeuralNetwork.dir/test/learn_xor.cpp.s
+.PHONY : test/learn_xor.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -593,9 +569,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... NeuralNetwork
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... src/activation/leakyrelu.obj
 	@echo ... src/activation/leakyrelu.i
 	@echo ... src/activation/leakyrelu.s
@@ -632,15 +605,12 @@ help:
 	@echo ... src/loss/quadratic.obj
 	@echo ... src/loss/quadratic.i
 	@echo ... src/loss/quadratic.s
-	@echo ... src/optimizer/SGD.obj
-	@echo ... src/optimizer/SGD.i
-	@echo ... src/optimizer/SGD.s
 	@echo ... src/optimizer/adam.obj
 	@echo ... src/optimizer/adam.i
 	@echo ... src/optimizer/adam.s
-	@echo ... src/optimizer/optimizer.obj
-	@echo ... src/optimizer/optimizer.i
-	@echo ... src/optimizer/optimizer.s
+	@echo ... src/optimizer/sgd.obj
+	@echo ... src/optimizer/sgd.i
+	@echo ... src/optimizer/sgd.s
 	@echo ... src/weights/he.obj
 	@echo ... src/weights/he.i
 	@echo ... src/weights/he.s
@@ -650,6 +620,9 @@ help:
 	@echo ... src/weights/xavier.obj
 	@echo ... src/weights/xavier.i
 	@echo ... src/weights/xavier.s
+	@echo ... test/learn_xor.obj
+	@echo ... test/learn_xor.i
+	@echo ... test/learn_xor.s
 .PHONY : help
 
 

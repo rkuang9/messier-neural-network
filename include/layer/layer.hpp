@@ -21,9 +21,9 @@ namespace net
 
         virtual ~Layer() = default;
 
-        virtual ColumnVector &neurons_activated() = 0;
+        virtual const ColumnVector &neurons_activated() const = 0;
 
-        virtual ColumnVector &neurons_output() = 0;
+        virtual const ColumnVector &neurons_output() const = 0;
 
         virtual ColumnVector &error() = 0;
 

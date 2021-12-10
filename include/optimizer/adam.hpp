@@ -19,7 +19,9 @@ namespace net
 
             Adam(double learning_rate, unsigned batch_size, double beta_decay1, double beta_decay2);
 
-            void update(Matrix &weights, Matrix &nabla_weights) override;
+            void update(Matrix &weights, const Matrix &nabla_weights) override;
+
+            void update(ColumnVector &bias, const ColumnVector &nabla_bias) override;
 
         private:
             unsigned batch_size;

@@ -22,9 +22,15 @@ namespace net
         }
 
 
-        void Adam::update(Matrix &weights, Matrix &nabla_weights)
+        void Adam::update(Matrix &weights, const Matrix &nabla_weights)
         {
+            // not yet implemented
+        }
 
+
+        void Adam::update(ColumnVector &bias, const ColumnVector &nabla_bias)
+        {
+            // not yet implemented
         }
     }
 }

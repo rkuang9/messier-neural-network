@@ -8,13 +8,13 @@ namespace net
 {
     namespace activation
     {
-        ColumnVector Swish::activate(ColumnVector &z)
+        ColumnVector Swish::activate(const ColumnVector &z)
         {
             return z.array() * (1 / (1 + (-z.array()).exp()));
         }
 
 
-        ColumnVector Swish::gradient(ColumnVector &z)
+        ColumnVector Swish::gradient(const ColumnVector &z)
         {
             // swish + sigmoid * (1 - swish)
             return z.array() * (1 / (1 + (-z.array()).exp())) + // swish

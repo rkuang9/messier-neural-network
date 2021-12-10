@@ -8,7 +8,7 @@ namespace net
 {
     namespace activation
     {
-        ColumnVector LeakyReLU::activate(ColumnVector &z)
+        ColumnVector LeakyReLU::activate(const ColumnVector &z)
         {
             ColumnVector relu;
             relu.resize(z.size());
@@ -21,7 +21,7 @@ namespace net
         }
 
 
-        ColumnVector LeakyReLU::gradient(ColumnVector &z)
+        ColumnVector LeakyReLU::gradient(const ColumnVector &z)
         {
             ColumnVector gradient;
             gradient.resize(z.size());

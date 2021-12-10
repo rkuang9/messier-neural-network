@@ -8,24 +8,24 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug"/>
+				<Option working_dir="C:/Users/R/Desktop/messier-neural-network/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NeuralNetwork">
-				<Option output="C:/Users/R/Desktop/NeuralNetwork/bin/NeuralNetwork.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/R/Desktop/NeuralNetwork/bin"/>
+				<Option output="C:/Users/R/Desktop/messier-neural-network/bin/NeuralNetwork.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/R/Desktop/messier-neural-network/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DNN_DEBUG"/>
-					<Add directory="C:/Users/R/Desktop/NeuralNetwork"/>
+					<Add directory="C:/Users/R/Desktop/messier-neural-network"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
@@ -35,21 +35,21 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 NeuralNetwork"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 NeuralNetwork"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NeuralNetwork/fast">
-				<Option output="C:/Users/R/Desktop/NeuralNetwork/bin/NeuralNetwork.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/R/Desktop/NeuralNetwork/bin"/>
+				<Option output="C:/Users/R/Desktop/messier-neural-network/bin/NeuralNetwork.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/R/Desktop/messier-neural-network/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DNN_DEBUG"/>
-					<Add directory="C:/Users/R/Desktop/NeuralNetwork"/>
+					<Add directory="C:/Users/R/Desktop/messier-neural-network"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
@@ -59,175 +59,169 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 NeuralNetwork/fast"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 NeuralNetwork/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug"/>
+				<Option working_dir="C:/Users/R/Desktop/messier-neural-network/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug"/>
+				<Option working_dir="C:/Users/R/Desktop/messier-neural-network/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/NeuralNetwork/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/leakyrelu.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/activation/leakyrelu.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/relu.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/activation/relu.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/sigmoid.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/activation/sigmoid.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/softmax.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/activation/softmax.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/softplus.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/activation/softplus.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/softsign.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/activation/softsign.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/swish.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/activation/swish.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/activation/tanh.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/activation/tanh.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/common.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/common.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/enums.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/layer/dense.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/layer/dense.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/layer/input.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/layer/input.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/layer/layer.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/layer/layer.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/loss/cross_entropy.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/loss/cross_entropy.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/loss/kldivergence.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/loss/kldivergence.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/loss/mean_absolute_error.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/loss/mean_absolute_error.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/loss/quadratic.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/loss/quadratic.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/model.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/model.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/optimizer/adam.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/optimizer/SGD.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/optimizer/optimizer.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/optimizer/adam.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/optimizer/sgd.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/optimizer/optimizer.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/typedefs.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/typedefs.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/weights/he.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/weights/he.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/weights/normal.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/weights/normal.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/include/weights/xavier.hpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/include/weights/xavier.hpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/activation/leakyrelu.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/main.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/activation/relu.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/leakyrelu.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/activation/sigmoid.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/relu.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/activation/softmax.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/sigmoid.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/activation/softplus.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/softmax.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/activation/softsign.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/softplus.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/activation/swish.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/softsign.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/activation/tanh.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/swish.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/layer/dense.ipp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/activation/tanh.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/layer/input.ipp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/layer/dense.ipp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/loss/cross_entropy.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/layer/input.ipp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/loss/kldivergence.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/loss/cross_entropy.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/loss/mean_absolute_error.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/loss/kldivergence.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/loss/quadratic.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/loss/mean_absolute_error.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/model.ipp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/loss/quadratic.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/optimizer/adam.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/model.ipp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/optimizer/sgd.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/optimizer/SGD.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/weights/he.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/optimizer/adam.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/weights/normal.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/optimizer/optimizer.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/src/weights/xavier.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/weights/he.cpp">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/test/learn_xor.cpp">
 			<Option target="NeuralNetwork"/>
 		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/weights/normal.cpp">
-			<Option target="NeuralNetwork"/>
-		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/src/weights/xavier.cpp">
-			<Option target="NeuralNetwork"/>
-		</Unit>
-		<Unit filename="C:/Users/R/Desktop/NeuralNetwork/CMakeLists.txt">
+		<Unit filename="C:/Users/R/Desktop/messier-neural-network/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

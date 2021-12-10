@@ -9,13 +9,13 @@ namespace net
     namespace activation
     {
 
-        ColumnVector Softsign::activate(ColumnVector &z)
+        ColumnVector Softsign::activate(const ColumnVector &z)
         {
             return z.array() / (1 + z.array().abs());
         }
 
 
-        ColumnVector Softsign::gradient(ColumnVector &z)
+        ColumnVector Softsign::gradient(const ColumnVector &z)
         {
             return 1 / ((1 + z.array().abs()).pow(2));
         }

@@ -35,15 +35,15 @@ namespace net
 
 
 	template<typename Activation, typename Weights>
-	ColumnVector &Dense<Activation, Weights>::neurons_activated()
-	{
+    const ColumnVector &Dense<Activation, Weights>::neurons_activated() const
+    {
 		return this->a;
 	}
 
 
 	template<typename Activation, typename Weights>
-	ColumnVector &Dense<Activation, Weights>::neurons_output()
-	{
+    const ColumnVector &Dense<Activation, Weights>::neurons_output() const
+    {
 		return this->z;
 	}
 

@@ -8,13 +8,13 @@ namespace net
 {
     namespace activation
     {
-        ColumnVector ReLU::activate(ColumnVector &z)
+        ColumnVector ReLU::activate(const ColumnVector &z)
         {
             return z.array().max(0);
         }
 
 
-        ColumnVector ReLU::gradient(ColumnVector &z)
+        ColumnVector ReLU::gradient(const ColumnVector &z)
         {
             ColumnVector gradient;
             gradient.resize(z.size());

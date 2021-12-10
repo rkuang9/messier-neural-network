@@ -31,8 +31,8 @@ namespace net
     template<typename Loss>
     void Model<Loss>::train(optimizer::Optimizer &opt,
                             unsigned epochs,
-                            std::vector<std::vector<double>> training_data,
-                            std::vector<std::vector<double>> expected_output)
+                            std::vector<std::vector<double>> &training_data,
+                            std::vector<std::vector<double>> &expected_output)
     {
         if (training_data.size() != expected_output.size()) {
             throw std::invalid_argument("(model::train) not 1:1 training_data to expected_output");
@@ -90,7 +90,7 @@ namespace net
 
 
     template<typename Loss>
-    void Model<Loss>::feedforward(ColumnVector &input)
+    void Model<Loss>::feedforward(const ColumnVector &input)
     {
         // sets input layer "z" and "a" column vectors
         this->layers.front()->feedforward(input);
@@ -103,7 +103,7 @@ namespace net
 
 
     template<typename Loss>
-    void Model<Loss>::backpropagate(ColumnVector &expected_output)
+    void Model<Loss>::backpropagate(const ColumnVector &expected_output)
     {
         // on output layer first
         this->layers.back()->backpropagate(
@@ -145,7 +145,7 @@ namespace net
     ColumnVector Model<Loss>::predict(ColumnVector &input)
     {
         this->feedforward(input);
-        return this->layers.back()->neurons_output();
+        return this->layers.back()->neurons_activated();
     }
 
 

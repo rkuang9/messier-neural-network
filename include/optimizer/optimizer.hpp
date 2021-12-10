@@ -14,12 +14,9 @@ namespace net
         class Optimizer
         {
         public:
-            virtual void update(Matrix &weights, Matrix &nabla_weights) = 0;
+            virtual void update(Matrix &weights, const Matrix &nabla_weights) = 0;
 
-            virtual void update(ColumnVector &bias, ColumnVector &nabla_bias) = 0;
-
-            double learning_rate = 0.01;
-            double epsilon_smoothing = 1e-8;
+            virtual void update(ColumnVector &bias, const ColumnVector &nabla_bias) = 0;
         };
     }
 }

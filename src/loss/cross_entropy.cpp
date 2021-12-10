@@ -8,7 +8,7 @@ namespace net
 {
     namespace loss
     {
-        double CrossEntropy::loss(ColumnVector &a, ColumnVector &expected)
+        double CrossEntropy::loss(const ColumnVector &a, const ColumnVector &expected)
         {
             // if "z" has 0 values, an error may error due to natural log of zero
             return (
@@ -18,7 +18,7 @@ namespace net
         }
 
 
-        ColumnVector CrossEntropy::gradient(ColumnVector &a, ColumnVector &expected)
+        ColumnVector CrossEntropy::gradient(const ColumnVector &a, const ColumnVector &expected)
         {
             // add 1e-4 to the denominator to prevent division by zero
             // be wary of using this loss function since it can return

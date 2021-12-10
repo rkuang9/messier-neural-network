@@ -16,11 +16,11 @@ namespace net
         public:
             // z - neuron vector before activation
             // a - variable to assign activated neuron vector to
-            static ColumnVector activate(ColumnVector &z);
+            static ColumnVector activate(const ColumnVector &z);
 
             // z - neuron vector before activation
             // g - gradient vector
-            static ColumnVector gradient(ColumnVector &z);
+            static ColumnVector gradient(const ColumnVector &z);
         };
     }
 }

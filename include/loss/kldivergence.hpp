@@ -14,9 +14,9 @@ namespace net
         class KLDivergence
         {
         public:
-            static double loss(ColumnVector &z, ColumnVector &expected);
+            static double loss(const ColumnVector &a, const ColumnVector &expected);
 
-            static ColumnVector gradient(ColumnVector &a, ColumnVector &expected);
+            static ColumnVector gradient(const ColumnVector &a, const ColumnVector &expected);
         };
 
     }

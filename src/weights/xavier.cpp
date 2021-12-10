@@ -8,10 +8,13 @@
 
 namespace net
 {
-    void Xavier::init_weights(Matrix &weights, double input_units)
+    namespace weights
     {
-        Normal::init_weights(weights, -1);
-        weights.noalias() = weights * sqrt(1 / input_units);
+        void Xavier::init_weights(Matrix &weights, double input_units)
+        {
+            Normal::init_weights(weights, -1);
+            weights.noalias() = weights * sqrt(1 / input_units);
+        }
     }
 }
 

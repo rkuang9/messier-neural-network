@@ -9,13 +9,13 @@ namespace net
     namespace activation
     {
 
-        ColumnVector Softplus::activate(ColumnVector &z)
+        ColumnVector Softplus::activate(const ColumnVector &z)
         {
             return (1 + z.array().exp()).log();
         }
 
 
-        ColumnVector Softplus::gradient(ColumnVector &z)
+        ColumnVector Softplus::gradient(const ColumnVector &z)
         {
             return 1 / (1 + (-z.array()).exp()); // sigmoid function
         }

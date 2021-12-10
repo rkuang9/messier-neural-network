@@ -20,9 +20,9 @@ namespace net
 
         ~Dense() override = default;
 
-        ColumnVector &neurons_activated() override;
+        const ColumnVector &neurons_activated() const override;
 
-        ColumnVector &neurons_output() override;
+        const ColumnVector &neurons_output() const override;
 
         ColumnVector &error() override;
 

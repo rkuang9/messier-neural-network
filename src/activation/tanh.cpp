@@ -9,13 +9,13 @@ namespace net
 {
     namespace activation
     {
-        ColumnVector Tanh::activate(ColumnVector &z)
+        ColumnVector Tanh::activate(const ColumnVector &z)
         {
             return z.array().tanh();
         }
 
 
-        ColumnVector Tanh::gradient(ColumnVector &z)
+        ColumnVector Tanh::gradient(const ColumnVector &z)
         {
             return (1 - (z.array().tanh()).pow(2));
         }

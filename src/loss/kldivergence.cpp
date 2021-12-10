@@ -8,13 +8,13 @@ namespace net
 {
     namespace loss
     {
-        double KLDivergence::loss(ColumnVector &a, ColumnVector &expected)
+        double KLDivergence::loss(const ColumnVector &a, const ColumnVector &expected)
         {
             return (expected.array() * (expected.array() / a.array()).log10()).sum();
         }
 
 
-        ColumnVector KLDivergence::gradient(ColumnVector &a, ColumnVector &expected)
+        ColumnVector KLDivergence::gradient(const ColumnVector &a, const ColumnVector &expected)
         {
             // "a" must not have any zeroes
             return - (expected.array() / a.array());

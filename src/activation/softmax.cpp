@@ -8,13 +8,13 @@ namespace net
 {
     namespace activation
     {
-        ColumnVector Softmax::activate(ColumnVector &z)
+        ColumnVector Softmax::activate(const ColumnVector &z)
         {
             return z.array().exp() / z.array().exp().sum();
         }
 
 
-        ColumnVector Softmax::gradient(ColumnVector &z)
+        ColumnVector Softmax::gradient(const ColumnVector &z)
         {
             // same as sigmoid derivative where it's dSoftmax(z)/d(z) = Softmax(z) * (1 - Softmax(z))
             // derivation may seem daunting, but it's just the quotient rule

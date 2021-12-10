@@ -15,14 +15,14 @@ namespace net
 
 
     template<typename Activation>
-    ColumnVector &Input<Activation>::neurons_activated()
+    const ColumnVector &Input<Activation>::neurons_activated() const
     {
         return this->a;
     }
 
 
     template<typename Activation>
-    ColumnVector &Input<Activation>::neurons_output()
+    const ColumnVector &Input<Activation>::neurons_output() const
     {
         return this->z;
     }

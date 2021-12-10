@@ -10,12 +10,15 @@
 
 namespace net
 {
-    class Xavier
+    namespace weights
     {
-        typedef Eigen::MatrixX<double> Matrix;
-    public:
-        static void init_weights(Matrix &weights, double input_units);
-    };
+        class Xavier
+        {
+            typedef Eigen::MatrixX<double> Matrix;
+        public:
+            static void init_weights(Matrix &weights, double input_units);
+        };
+    }
 }
 
 

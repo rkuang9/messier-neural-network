@@ -39,7 +39,7 @@
 
 // optimizers
 #include "include/optimizer/optimizer.hpp" // base class
-#include "include/optimizer/SGD.hpp"
+#include "include/optimizer/sgd.hpp"
 #include "include/optimizer/adam.hpp"
 
 #endif //NEURALNETWORK_COMMON_HPP

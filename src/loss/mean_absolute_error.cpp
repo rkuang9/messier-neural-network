@@ -8,13 +8,13 @@ namespace net
 {
     namespace loss
     {
-        double MeanAbsoluteError::loss(ColumnVector &a, ColumnVector &expected)
+        double MeanAbsoluteError::loss(const ColumnVector &a, const ColumnVector &expected)
         {
             return (a.array() - expected.array()).abs().sum() * a.rows();
         }
 
 
-        ColumnVector MeanAbsoluteError::gradient(ColumnVector &a, ColumnVector &expected)
+        ColumnVector MeanAbsoluteError::gradient(const ColumnVector &a, const ColumnVector &expected)
         {
             ColumnVector gradient;
             gradient.resize(a.rows());
@@ -34,6 +34,8 @@ namespace net
                     gradient[i] = 0;
                 }
             }
+
+            return gradient;
         }
     }
 }

@@ -8,14 +8,14 @@ namespace net
 {
     namespace loss
     {
-        double Quadratic::loss(ColumnVector &z, ColumnVector &expected)
+        double Quadratic::loss(const ColumnVector &a, const ColumnVector &expected)
         {
             throw std::invalid_argument("Quadratic::loss() not implemented yet");
             return 0;
         }
 
 
-        ColumnVector Quadratic::gradient(ColumnVector &a, ColumnVector &expected)
+        ColumnVector Quadratic::gradient(const ColumnVector &a, const ColumnVector &expected)
         {
             return (a - expected);
         }
