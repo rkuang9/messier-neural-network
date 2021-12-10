@@ -1,3 +1,0 @@
-C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/CMakeFiles/NeuralNetwork.dir
-C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/R/Desktop/messier-neural-network/cmake-build-debug/CMakeFiles/rebuild_cache.dir
